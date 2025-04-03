@@ -10,4 +10,5 @@ class MostReservedRoom extends Page
 
     protected static ?string $navigationGroup = 'Reservation';
     protected static string $view = 'filament.pages.most-reserved-room';
+    protected static bool $shouldRegisterNavigation = false;
 }

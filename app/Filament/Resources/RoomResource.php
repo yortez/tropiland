@@ -23,6 +23,7 @@ class RoomResource extends Resource
     {
         return static::getModel()::count();
     }
+    protected static ?string $recordTitleAttribute = 'name';
     public static function form(Form $form): Form
     {
         return $form
