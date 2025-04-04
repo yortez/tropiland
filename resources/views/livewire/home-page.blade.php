@@ -124,7 +124,7 @@
 							</div>
 						</li>
 					</ul>
-					<a href="/book class="btn btn-fill btn-large centered">Book Now</a>
+					<a href="/book" class="btn btn-fill btn-large centered">Book Now</a>
 				</div>
 			</div>
 		</section>
@@ -144,8 +144,8 @@
 					<h2 class="card-title">
 							Mark Essien
 					</h2>
-					<h3 class="card-subtitle">
-						Lagos, Nigeria.
+					<h3 class="card-subtitle star">
+                        ⭐⭐⭐⭐
 					</h3>
 					<p class="card-desc">Words can't explain the kind of treatment I received from the management of star hotels. They are the best in the country.</p>
 				</div>
@@ -154,8 +154,8 @@
 					<h2 class="card-title">
 							Seyi Onifade
 					</h2>
-					<h3 class="card-subtitle">
-							Lagos, Nigeria.
+					<h3 class="card-subtitle star">
+                        ⭐⭐⭐⭐
 					</h3>
 					<p class="card-desc">Star hotels makes you feel the best room quality that makes you feel the comfort of a home.</p>
 				</div>
@@ -167,8 +167,8 @@
 					<h2 class="card-title">
 						Fayemi David
 					</h2>
-					<h3 class="card-subtitle">
-						Lagos, Nigeria.
+					<h3 class="card-subtitle star">
+						⭐⭐⭐⭐
 					</h3>
 					<p class="card-desc">My Family and I are very happy when we lodge into star hotels. They are by far the best in the universe.</p>
 				</div>

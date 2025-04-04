@@ -112,7 +112,7 @@ class AdminPanelProvider extends PanelProvider
         $plugins = [
             EasyFooterPlugin::make(),
             AuthUIEnhancerPlugin::make()
-                ->emptyPanelBackgroundImageUrl('/img.jpg')
+                ->emptyPanelBackgroundImageUrl('/img.jpeg')
                 ->formPanelPosition('right')
                 ->formPanelWidth('40%'),
             ThemesPlugin::make(),

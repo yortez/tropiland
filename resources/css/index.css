@@ -40,6 +40,11 @@
 	background-color: #d4af37;
 	border: none;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 p {
 	font-size: 18px;
@@ -128,7 +133,7 @@ h2 {
 .jumbotron-container {
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('/public/assets/img/Homepage-jumbotron.webp');
+		url('/public/assets/img/img.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -402,6 +407,9 @@ h2 {
 .card-desc {
 	font-size: 18px;
 	font-weight: 300;
+}
+.star {
+    font-size: 15px;
 }
 
 /* End----------------------------------------- */

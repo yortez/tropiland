@@ -18,9 +18,10 @@ class OnlineRoomBookingResource extends Resource
 {
     protected static ?string $model = OnlineRoomBooking::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-list';
     protected static ?string $navigationGroup = 'Reservation';
     protected static ?string $navigationLabel = 'Bookings';
+    protected static ?int $navigationSort = 0;
     public static function getNavigationBadge(): ?string
     {
         return static::getModel()::where('status', 'pending')->count();

@@ -21,8 +21,9 @@ use Illuminate\Support\Facades\Log;
 class CheckOutResource extends Resource
 {
     protected static ?string $model = CheckOut::class;
+    protected static ?int $navigationSort = 2;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = null;
     protected static ?string $navigationGroup = 'Reservation';
 
     public static function form(Form $form): Form

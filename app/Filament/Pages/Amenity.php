@@ -6,7 +6,7 @@ use Filament\Pages\Page;
 
 class Amenity extends Page
 {
-    protected static ?string $navigationIcon = 'heroicon-o-document-text';
+    protected static ?string $navigationIcon = 'heroicon-o-sparkles';
     protected static ?string $navigationGroup = 'Management';
     protected static ?string $navigationLabel = 'Amenities';
 

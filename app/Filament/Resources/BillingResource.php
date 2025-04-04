@@ -18,7 +18,7 @@ class BillingResource extends Resource
 {
     protected static ?string $model = Billing::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-document-currency-dollar';
     protected static ?string $navigationGroup = 'Management';
 
     public static function form(Form $form): Form

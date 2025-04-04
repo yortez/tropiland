@@ -17,8 +17,9 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class CheckInResource extends Resource
 {
     protected static ?string $model = CheckIn::class;
+    protected static ?int $navigationSort = 1;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = null;
     protected static ?string $navigationGroup = 'Reservation';
     public static function getNavigationBadge(): ?string
     {

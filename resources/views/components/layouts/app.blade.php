@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tropiland Hotel Portal</title>
+
     @vite([
         'resources/css/index.css',
-        'resources/css/app.css',
-         'resources/js/app.js',
          'resources/css/accesibility.css',
          'resources/css/contact-page.css',
          'resources/css/rooms-and-suites.css',
@@ -18,7 +17,8 @@
          'resources/js/switchRooms.js',
          'resources/js/toggleHamburger.js',
          ])
-    @livewireStyles
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div id="loader">
@@ -39,9 +39,9 @@
     <header>
         <div class="header-container">
            <nav class="header-nav-bar">
-                  <div class="">
+                  <div class="brand-name">
                       <a href="/">
-                         <h1>Tropiland Hotel</h1>
+                        Tropiland Hotel
                       </a>
                   </div>
                   <ul class="header-nav-lists">
